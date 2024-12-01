@@ -1,6 +1,15 @@
 .container-lists {
     background-color: orange;
-    // padding-left: $margin-right-content;
-    // padding-top: 30px;
+    padding-top: 40px;
     width: 50%;
+    padding-left: 15px;
+}
+
+.list {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+li {
+    font-size: 16px;
 }

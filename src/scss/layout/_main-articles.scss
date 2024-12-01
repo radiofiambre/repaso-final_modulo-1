@@ -1,8 +1,5 @@
-.container-articles {
-    background-color: yellow;
-}
-
 .article {
+    background-color: yellow;
     padding-top: 30px;
     padding-left: $margin-right-content;
 }
@@ -12,6 +9,6 @@ h2 {
     padding-bottom: 15px;
 }
 
-p {
+.container-articles p {
     font-size: 18px;    
 }

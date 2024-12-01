@@ -12,11 +12,17 @@
 
 :root {
     font-family: $font-main;
-    
     @media screen and (min-width: 768px) {
         body {
             border-left: 40px solid gray;
             border-right: 40px solid white;
         }
+    }
+}
+
+.container-author-lists {
+    display: flex;
+    @media screen and (min-width: 768px) {
+        flex-direction: column;
     }
 }

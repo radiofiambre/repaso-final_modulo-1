@@ -5,8 +5,10 @@ footer {
   margin-left: $margin-left-content;
   margin-right: $margin-right-content;
   border-top: 1px solid gray;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  footer {
     margin-right: 0px;
   }
 }

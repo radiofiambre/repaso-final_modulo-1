@@ -11,14 +11,12 @@
 @import 'layout/footer';
 
 :root {
+    font-family: $font-main;
+    
     @media screen and (min-width: 768px) {
         body {
             border-left: 40px solid gray;
             border-right: 40px solid white;
         }
     }
-}
-
-* {
-    font-family: $font-main;
 }

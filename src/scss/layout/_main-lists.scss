@@ -1,8 +1,8 @@
 .container-lists {
     background-color: orange;
     padding-top: 40px;
-    width: 50%;
     padding-left: 15px;
+    width: 50%;
 }
 
 .list {
@@ -12,4 +12,10 @@
 
 li {
     font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-lists {
+        width: 100%;
+    }
 }

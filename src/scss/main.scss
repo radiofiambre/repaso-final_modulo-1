@@ -14,6 +14,7 @@
     font-family: $font-main;
     @media screen and (min-width: 768px) {
         body {
+            background-color: aliceblue;
             border-left: 40px solid gray;
             border-right: 40px solid white;
         }
@@ -22,7 +23,27 @@
 
 .container-author-lists {
     display: flex;
-    @media screen and (min-width: 768px) {
+    flex-direction: row;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-header-main {
+        background-color: beige;
+        width: 100%;
+        height: 700px;
+    }
+    
+    header {
+        width: 70%;
+    }
+
+    .container-articles {
+        width: 70%;
+    }
+
+    .container-author-lists {
         flex-direction: column;
+        width: 30%;
     }
 }

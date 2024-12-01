@@ -1,5 +1,5 @@
 @import 'core/reset';
-// @import 'core/variables';
+@import 'core/variables';
 
 // @import 'components/code';
 // @import 'components/links';
@@ -10,10 +10,15 @@
 @import 'layout/main-lists';
 @import 'layout/footer';
 
-.margin-left {
-    display: none;
+:root {
+    @media screen and (min-width: 768px) {
+        body {
+            border-left: 40px solid gray;
+            border-right: 40px solid white;
+        }
+    }
 }
 
-.margin-right {
-    display: none;
+* {
+    font-family: $font-main;
 }

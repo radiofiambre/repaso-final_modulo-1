@@ -4,6 +4,9 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  margin-left: $margin-left-content;
+  margin-right: $margin-right-content;
+  border-bottom: 1px solid gray;
 }
 
 .logo-blog {
@@ -19,6 +22,7 @@ h1 {
 
 @media screen and (min-width: 768px) {
   header {
+    width: calc(70% - 30px);
     align-items: flex-start;
   }
 }
